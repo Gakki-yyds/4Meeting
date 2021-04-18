@@ -15,3 +15,50 @@
     float: right;
     margin: 16px 0 16px 24px;
   }
+
+#article{
+  font-size: 12px;
+  padding: 5px 0px 0px 0px;
+  margin: 0;
+  background: whitesmoke;
+}
+article>h2{
+  text-align: center;
+  font-size: 2.2em;
+  margin-bottom: 25px;
+}
+#article #timeline{
+  margin-left: 23%;
+  border-left: 6px solid rgba(131,128,128,.6);
+}
+#article #timeline li{
+  list-style: none;
+  width: 85%;
+  position: relative;
+}
+#article #timeline li time{
+  position: absolute;
+  left: -40%;
+  top: 20px;
+  width: 30%;
+  font-size: 1.5em;
+  color: #85aadf;
+  font-weight: bold;
+  text-align: right;
+}
+#article .timeline-content{
+  margin: 0 0 20px 3%;
+  background: #85aadf;
+  color: #fff;
+  text-align: justify;
+  font-size: 1.1em;
+  line-height: 1.5em;
+  padding: 5px 10px;
+  border-radius: 4px;
+  position: relative;
+}
+#article .timeline-content h3{
+  font-size: 1.8em;
+  line-height: 1.2em;
+  margin: 10px 0;
+}
