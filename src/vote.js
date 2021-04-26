@@ -2,7 +2,7 @@ import './App.css'
 import { Layout, Menu,Descriptions,Affix,Button } from 'antd';
 import {NavLink} from 'react-router-dom'
 import {useState} from 'react'
-
+import CollectionsPage from './components/newVote'
 const { Header, Content, Footer } = Layout;
 
 function Vote() {
@@ -14,8 +14,8 @@ function Vote() {
       <div className="logo" />
       <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['2']}>
         <Menu.Item key="1"><NavLink to="/"> 主页</NavLink></Menu.Item>
-        <Menu.Item key="2">发起投票</Menu.Item>
-        <Menu.Item key="3">查看投票</Menu.Item>
+        <Menu.Item key="2"><NavLink to="/vote"> 发起投票</NavLink></Menu.Item>
+        <Menu.Item key="3"><NavLink to="/home">查看投票</NavLink></Menu.Item>
       </Menu>
     </Header>
     <Content style={{ padding: '0 50px' }}>
@@ -30,10 +30,9 @@ function Vote() {
     </Descriptions>
     </Content>
       <Affix offsetBottom={bottom} style={{textAlign:'center'}}>
-        <Button type="primary"  onClick={() => setBottom(bottom + 10)}>
-          新增问卷
-        </Button>
+        <CollectionsPage/>
       </Affix>
+
   </Layout>
 
   );

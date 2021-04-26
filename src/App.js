@@ -12,7 +12,7 @@ function App() {
       <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['1']}>
         <Menu.Item key="1"><NavLink to="/"> 主页</NavLink></Menu.Item>
         <Menu.Item key="2"><NavLink to="/vote"> 发起投票</NavLink></Menu.Item>
-        <Menu.Item key="3">查看投票</Menu.Item>
+        <Menu.Item key="3"><NavLink to="/home">查看投票</NavLink></Menu.Item>
       </Menu>
     </Header>
     <Content style={{ padding: '0 50px' }}>
