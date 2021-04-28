@@ -17,13 +17,6 @@ const CollectionCreateForm = ({ visible, onCreate, onCancel }) => {
     ],
   };
 
-  const radioStyle = {
-    display: 'block',
-    height: '30px',
-    lineHeight: '30px',
-  };
-
-
   return (
     <Modal
       visible={visible}
