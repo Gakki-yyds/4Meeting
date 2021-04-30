@@ -1,6 +1,7 @@
 import './App.css'
 import { Layout, Menu } from 'antd';
 import {NavLink} from 'react-router-dom'
+import DrawerForm from './components/login'
 
 const { Header, Content, Footer } = Layout;
 
@@ -13,7 +14,9 @@ function App() {
         <Menu.Item key="1"><NavLink to="/"> 主页</NavLink></Menu.Item>
         <Menu.Item key="2"><NavLink to="/vote"> 发起投票</NavLink></Menu.Item>
         <Menu.Item key="3"><NavLink to="/home">查看投票</NavLink></Menu.Item>
+        <DrawerForm/>
       </Menu>
+      
     </Header>
     <Content style={{ padding: '0 50px' }}>
       <article id="article">

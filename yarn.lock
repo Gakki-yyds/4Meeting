@@ -2677,6 +2677,13 @@
   "resolved" "https://registry.npm.taobao.org/axe-core/download/axe-core-4.1.4.tgz?cache=0&sync_timestamp=1618414062604&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Faxe-core%2Fdownload%2Faxe-core-4.1.4.tgz"
   "version" "4.1.4"
 
+"axios@^0.21.1":
+  "integrity" "sha1-IlY0gZYvTWvemnbVFu8OXTwJsrg="
+  "resolved" "https://registry.nlark.com/axios/download/axios-0.21.1.tgz"
+  "version" "0.21.1"
+  dependencies:
+    "follow-redirects" "^1.10.0"
+
 "axobject-query@^2.2.0":
   "integrity" "sha1-lD1H4QwLcEqkInXiDt83ImSJib4="
   "resolved" "https://registry.npm.taobao.org/axobject-query/download/axobject-query-2.2.0.tgz"
@@ -5305,7 +5312,7 @@
     "inherits" "^2.0.3"
     "readable-stream" "^2.3.6"
 
-"follow-redirects@^1.0.0":
+"follow-redirects@^1.0.0", "follow-redirects@^1.10.0":
   "integrity" "sha1-5VmK1QF0wbxOhyMB6CrCzZf5Amc="
   "resolved" "https://registry.npm.taobao.org/follow-redirects/download/follow-redirects-1.13.3.tgz"
   "version" "1.13.3"
